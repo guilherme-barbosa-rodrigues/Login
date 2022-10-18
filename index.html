@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="imagem">
+        </div>
+        <menu>
+            <ul>
+                <li><a href="#">Home</a>
+                <li><a href="#">Content</a>
+                <li><a href="#">Top Secret</a>
+                <li><a href="#">Contact-us</a>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <h1>Área de Acesso</h1>
+            <p>Acesso restrito, faça login para continuar.</p>
+            <form action="login.php" method="post">
+                <div class="lab">
+                    <label for="iusuario">Usuario:</label>
+                </div>
+                <div class="dados">
+                    <input type="text" name="usuario" id="iusuario" placeholder="Usuario">
+                </div>
+                <div class="lab">
+                    <label for="isenha">Senha:</label>
+                </div>
+                <div class="dados">
+                    <input type="password" name="senha" id="isenha" placeholder="Senha">
+
+                </div>
+                <div class="botoes">
+                    <input type="submit" value="Entrar">
+                    <a class="esqueci" href="esqueci.html">Esqueci a senha</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Este site é ultra secreto, para mais informações <a class="link" href="https://guilherme-barbosa-rodrigues.github.io/Portifolio" target="_blank">clique aqui</a></p>
+    </footer>
+</body>
+</html>
