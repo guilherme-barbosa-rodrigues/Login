@@ -49,10 +49,20 @@ header > menu > ul > li > a:hover {
     transition: 0.3s;
 }
 main {
-    background-color: var(--cor05);
-    margin: auto;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
 }
-footer {
+main > section.conteudo {
+    height: 300px;
+    width: 300px;
+    background-color: #D5D7F2;
+    position: absolute;
+    top: 50%;
+    left: ;
+    padding: 10%;
+}
+/* footer {
     text-align: center;
     font-family: var(--font02);
     background-color: var(--cor02);
@@ -70,4 +80,4 @@ footer > p > a.link:hover {
     border-radius: 5px;
     transition: .3s;
     padding: 3px;
-}
+} */
