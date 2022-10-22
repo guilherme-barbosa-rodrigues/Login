@@ -80,13 +80,36 @@ section.conteudo > div > h1 {
     padding-bottom: 10px;
 }
 section.conteudo > p {
-    font-family: var(--font01);
+    font-family: var(--font02);
     text-align: center;
-    margin-top: 50px;
+    margin: 25px 5px 0px 5px;
+
 }
 section.conteudo > form {
     padding: 10px;
     display: block;
+    margin: 17%;
+    margin-top: 20px;
+}
+section.conteudo > form > div.lab {
+    font-size: 1.1em;
+    font-family: var(--font02);
+}
+section.conteudo > form > div.dados {
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--cor06);
+    margin: 5px 0px;
+} 
+section.conteudo > form > div.dados > input {
+    height: 100%;
+    width: calc(100%-45px);
+    font-size: 1em;
+    padding: 4px;
+    border-radius: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.39);
 }
 
 /*
