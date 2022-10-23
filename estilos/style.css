@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 body, html {
-    background-image: linear-gradient(var(--cor02), var(--cor05));
+    background-image: linear-gradient(100deg, var(--cor02), var(--cor05));
     height: 100vh;
     width: 100vw;
 }
@@ -108,10 +108,12 @@ section.conteudo > form > div.dados {
 section.conteudo > form > div.dados > input {
     height: 95%;
     width:100%;
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 4px;
     border-radius: 8px;
     border: 0.5px solid rgba(0, 0, 0, 0.39);
+    outline: none;
+
 }
 section.conteudo > form > div.botoes > input[type=submit] {
     font-family: var(--font01);
